@@ -27,7 +27,7 @@
     <string name="delete">DELETE</string>
     <string name="update">UPDATE</string>
     <string name="no_record_found">No records found</string>
-    <string name="submit_btn">SUBMIT</string>
+    <string name="submit_btn">Submit</string>
     <string name="dfs_tile">Digital Farmer Services</string>
     <string name="enter_valid_mobile_no">Enter Valid Mobile Number</string>
 
@@ -38,5 +38,6 @@
     <string name="hindi">हिंदी</string>
     <string name="Maithili">মৈথিলী</string>
     <string name="bhojpuri">भोजपुरी</string>
+    <string name="_91">+91</string>
 
 </resources>

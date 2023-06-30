@@ -24,5 +24,5 @@
     <color name="dfs_yellow">#FFE165</color>
     <color name="lang_btn_color">#FFFFE0</color>
     <color name="lang_btn_txt_color">#5A4A4A</color>
-
+    <color name="dfs_Edittext_bottom">#707070</color>
 </resources>

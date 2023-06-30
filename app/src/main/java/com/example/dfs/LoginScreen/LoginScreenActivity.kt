@@ -1,4 +1,4 @@
-package com.example.dfs
+package com.example.dfs.LoginScreen
 
 import android.content.Intent
 import android.os.Bundle
@@ -10,9 +10,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import com.example.dfs.Api.ApiUtilis
-import com.example.dfs.LoginScreen.OtpScreen
 import com.example.dfs.LoginScreen.model.LoginModel
 import com.example.dfs.LoginScreen.viewModel.LoginViewModel
+import com.example.dfs.R
 import com.example.dfs.databinding.ActivityMainBinding
 import com.example.dfs.preferences.Pref_storage
 import com.example.dfs.utils.Status
@@ -98,6 +98,7 @@ class LoginScreenActivity : AppCompatActivity() {
 
                textToSpeech.speak(getString(R.string.generate_otp), TextToSpeech.QUEUE_FLUSH, null)
 
+               mobileNumber = dataBinding.bottomLay.phoneNumberEdtxt.text.toString()
 
                if (!mobileNumber.isNullOrBlank() && mobileNumber.length == 10){
                    handleNavigation()

@@ -4,7 +4,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/theme_color_new">
+        android:background="@color/dfs_theme">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -66,7 +66,7 @@
                 android:id="@+id/verify_continue"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:background="@color/theme_color_new"
+                android:background="@color/dfs_theme"
                 android:drawablePadding="8dp"
                 android:inputType="numberDecimal"
                 android:text="@string/submit_btn"

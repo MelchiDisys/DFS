@@ -18,14 +18,13 @@
         <activity
             android:name=".language.SelectLanguageActivity"
             android:exported="false"
-            android:screenOrientation="portrait"
-            />
+            android:screenOrientation="portrait" />
         <activity
             android:name=".HomeScreen.HomeScreen"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".LoginScreenActivity"
+            android:name=".LoginScreen.LoginScreenActivity"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity

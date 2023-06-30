@@ -27,19 +27,37 @@
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="bold"
+                android:backgroundTint="@color/dfs_Edittext_bottom"
+
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/countryTxt"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="30dp"
+                android:layout_marginEnd="10dp"
+                android:backgroundTint="@color/dfs_Edittext_bottom"
+                android:enabled="false"
+                android:singleLine="true"
+                android:text="@string/_91"
+                app:layout_constraintEnd_toStartOf="@+id/phoneNumberEdtxt"
+                app:layout_constraintTop_toBottomOf="@+id/enter_mobile_number_txt" />
+
+
+            <androidx.appcompat.widget.AppCompatEditText
                 android:id="@+id/phoneNumberEdtxt"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="30dp"
+                android:layout_marginVertical="30dp"
+                android:layout_marginEnd="20dp"
+                android:inputType="number"
+                android:backgroundTint="@color/dfs_Edittext_bottom"
+
                 android:singleLine="true"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/enter_mobile_number_txt" />
 
             <androidx.appcompat.widget.AppCompatButton

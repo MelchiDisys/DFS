@@ -4,9 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
-import com.example.dfs.LoginScreenActivity
+import com.example.dfs.LoginScreen.LoginScreenActivity
 import com.example.dfs.R
-import com.example.dfs.databinding.ActivityMainBinding
 import com.example.dfs.databinding.ActivitySelectLanguageBinding
 
 class SelectLanguageActivity : AppCompatActivity() {
@@ -41,7 +40,7 @@ class SelectLanguageActivity : AppCompatActivity() {
     }
 
     private fun handleNavigation() {
-        var intent = Intent(this@SelectLanguageActivity,LoginScreenActivity::class.java)
+        var intent = Intent(this@SelectLanguageActivity, LoginScreenActivity::class.java)
         startActivity(intent)
     }
 }
