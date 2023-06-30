@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Direct Farmer Services</string>
+    <string name="network_slow_or_disconnected">Network slow or disconnected</string>
+    <string name="enter_mobile_number">Enter your Mobile Number</string>
+    <string name="send_four_digit">We will send you 4 digit verification code to your Mobile Number.</string>
+    <string name="generate_otp">Generate OTP</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="verify_continue">VERIFY &amp; CONTINUE</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="hi">HI</string>
+    <string name="search_your_item">Search your item</string>
+    <string name="item_name">Item Name :</string>
+    <string name="description">Description :</string>
+    <string name="amount">Amount :</string>
+    <string name="Rs">\u20B9</string>
+    <string name="your_cart">Your Cart</string>
+    <string name="delete_item">DELETE ITEM</string>
+    <string name="error_in_response">Api Error</string>
+    <string name="service_number">Service Number</string>
+    <string name="service_type">Service Type</string>
+    <string name="Service">Service</string>
+    <string name="service_provider">Service Provider</string>
+    <string name="status">Status</string>
+    <string name="service_request">Service Request</string>
+    <string name="submit_request">SUBMIT REQUEST</string>
+    <string name="proceed_to_check_out">Proceed To check out</string>
+    <string name="delete">DELETE</string>
+    <string name="update">UPDATE</string>
+    <string name="no_record_found">No records found</string>
+    <string name="submit_btn">SUBMIT</string>
+    <string name="dfs_tile">Digital Farmer Services</string>
+    <string name="enter_valid_mobile_no">Enter Valid Mobile Number</string>
+
+    <string name="bihan_kisan_seva">Bihar Kisan Seva</string>
+    <string name="select_language_en">Select your language</string>
+    <string name="select_language_hi">अपनी भाषा का चयन करें</string>
+    <string name="English">English</string>
+    <string name="hindi">हिंदी</string>
+    <string name="Maithili">মৈথিলী</string>
+    <string name="bhojpuri">भोजपुरी</string>
+
+</resources>

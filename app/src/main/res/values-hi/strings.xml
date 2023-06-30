@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+
+<resources>
+
+    <string name="generate_otp">ओटीपी जनरेट करें</string>
+
+    // dont change
+    <string name="bihan_kisan_seva">Bihar Kisan Seva</string>
+    <string name="select_language_en">Select your language</string>
+    <string name="select_language_hi">अपनी भाषा का चयन करें</string>
+    <string name="English">English</string>
+    <string name="hindi">हिंदी</string>
+    <string name="Maithili">মৈথিলী</string>
+    <string name="bhojpuri">भोजपुरी</string>
+
+</resources>
